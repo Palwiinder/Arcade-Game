@@ -7,7 +7,7 @@ var Enemy = function (x, y, speed) {
     this.x = x;
     this.y = y;
     this.speed = speed;
-    this.sprite = 'images/enemy-bug.png';
+    this.sprite = 'src/images/enemy-bug.png';
 };
 // random function for the speed of enemies 
 function random(min, max) {
@@ -54,7 +54,7 @@ class Player {
         this.x = x;
         this.y = y;
         this.speed = speed;
-        this.sprite = 'images/char-cat-girl.png';
+        this.sprite = 'src/images/char-cat-girl.png';
         this.counter = 1;
         this.highestLevel = 1;
     }
